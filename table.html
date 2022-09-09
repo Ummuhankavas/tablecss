@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE CSS</title>
+    <style>
+        caption{
+            font-weight: 900;
+            border: 2px solid black;
+            margin-bottom: 5px;
+        }
+
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            height: 30px;
+            vertical-align: top;
+            padding: 20px;
+            background-color: cornflowerblue;
+        }
+
+        td{
+            height: 25px;
+            padding: 5px;
+            text-align: center;
+        }
+        td:hover{
+            background-color: lightslategray;
+        }
+        tr:nth-child(odd){
+            background-color: lightsalmon;
+        }
+        tr:nth-child(even){
+            background-color: crimson;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>CLARUSWAY STAFF LIST</caption>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+        <td>1</td>
+        <td>Martin</td>
+        <td>Smith</td>
+        <td>32</td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>Asley</td>
+        <td>Smith</td>
+        <td>30</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>Marta</td>
+        <td>Brown</td>
+        <td>25</td>
+        </tr>
+        <tr>
+        <td>4</td>
+        <td>Martin</td>
+        <td>Smith</td>
+        <td>32</td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>Sebastian</td>
+        <td>Rain</td>
+        <td>43</td>
+        </tr>
+        <tr>
+        <td>6</td>
+        <td>Joseph</td>
+        <td>Mark</td>
+        <td>27</td>
+        </tr>
+        <tr>
+        <td>7</td>
+        <td>Erik</td>
+        <td>Moses</td>
+        <td>56</td>
+        </tr>
+        <tr>
+        <td>8</td>
+        <td>Donald</td>
+        <td>Wolf</td>
+        <td>32</td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
